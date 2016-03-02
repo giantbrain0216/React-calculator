@@ -93,3 +93,14 @@ export function deletePostRequest(post) {
     }).then(() => dispatch(deletePost(post)));
   };
 }
+export function pressNumber(number) {
+  return {
+    type: 'PRESS_NUMBER',
+    number,
+  };
+}
+export function clearNumbers() {
+  return {
+    type: 'CLEAR_NUMBERS',
+  };
+}
