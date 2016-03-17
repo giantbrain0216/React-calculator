@@ -6,3 +6,4 @@ export const ADD_SELECTED_POST = 'ADD_SELECTED_POST';
 export const DELETE_POST = 'DELETE_POST';
 export const PRESS_NUMBER = 'PRESS_NUMBER';
 export const CLEAR_NUMBERS = 'CLEAR_NUMBERS';
+export const GENERIC_PRESS = 'GENERIC_PRESS';

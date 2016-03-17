@@ -104,3 +104,10 @@ export function clearNumbers() {
     type: 'CLEAR_NUMBERS',
   };
 }
+
+export function genericPress(val){
+  return {
+    type: 'GENERIC_PRESS',
+    val,
+  };
+}
